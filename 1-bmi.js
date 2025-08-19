@@ -4,9 +4,9 @@
 const prompt = require('prompt-sync')();
 
 console.log("BMI Calculator");
-let weight = prompt("Please enter your weight (in kg)");
+let weight = parseFloat(prompt("Please enter your weight (in kg)"));
 
-let height = prompt("Please enter your height (in meters)");
+let height = parseFloat(prompt("Please enter your height (in meters)"));
 
 let bmi = weight / height ** 2;
 
