@@ -15,3 +15,5 @@ if (psi <= 50) {
 } else {
     console.log("The air quality is hazardous")
 }
+
+console.log("end of the program");
